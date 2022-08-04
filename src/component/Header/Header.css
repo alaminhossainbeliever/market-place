@@ -1,0 +1,40 @@
+.header img{
+height: 100px;
+}
+.header{
+    text-align: center;
+}
+nav{
+    display: flex;
+    background-color: black;
+    line-height: 50px;
+}
+nav a{
+    padding:0 20px;
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+
+}
+nav a:hover{
+    background-color: white;
+    color: black;
+}
+nav a:active{
+    background-color: white;
+    color: black; 
+}
+.searchBar{
+    background-color: rgb(32, 32, 32);
+    line-height:70px;
+}
+input[type="search"]{
+    width:60%;
+    height: 40px;
+    font-size: large;
+}
+input[type="submit"]{
+    height: 43px;
+    background-color: gold;
+
+}
